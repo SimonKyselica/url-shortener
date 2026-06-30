@@ -2,20 +2,18 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "dev": "nodemon tsx watch server.ts",
-    "start": "nodemon tsx server.ts",
+    "dev": "tsx watch server.ts",
+    "start": "tsx server.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "Simon Kyselica",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "better-sqlite3": "^12.11.1",
-    "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
